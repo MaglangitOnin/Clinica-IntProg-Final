@@ -1,0 +1,19 @@
+{
+    "database" : {
+        "host" : "localhost",
+        "port" : 3306,
+        "user" : "root",
+        "password" : "",
+        "database" : "clinica-backend-nodejs"
+    },
+    "secret": "8e066ff0-d414-4f6e-8a60-8a5b6dd0d697",
+    "emailFrom": "info@node-mysql-signup-verification-api.com",
+    "smtpOptions" : {
+        "host": "smtp.ethereal.email",
+        "port": 587,
+        "auth": {
+            "user": "ollie.hudson55@ethereal.email",
+            "pass": "rJhEWsXCxNFhZbC5sB"
+        }
+    }
+}
