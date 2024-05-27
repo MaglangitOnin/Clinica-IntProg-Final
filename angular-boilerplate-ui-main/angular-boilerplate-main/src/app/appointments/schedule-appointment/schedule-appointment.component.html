@@ -1,0 +1,12 @@
+<form (ngSubmit)="scheduleAppointment()">
+    <div>
+      <label for="appointmentDate">Date:</label>
+      <input type="date" id="appointmentDate" [(ngModel)]="appointment.appointmentDate" name="appointmentDate" required>
+    </div>
+    <div>
+      <label for="reason">Reason:</label>
+      <textarea id="reason" [(ngModel)]="appointment.reason" name="reason" required></textarea>
+    </div>
+    <button type="submit">Schedule Appointment</button>
+  </form>
+  
